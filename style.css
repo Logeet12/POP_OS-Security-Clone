@@ -8,8 +8,7 @@ background-color: white;
 height:235px;
 width: 100%;
 }
-.nav-logo{
-    background-image: url("system76.png");
+.nav-logo img{
     background-size: cover;
     height: 100px;
     width: 250px;
@@ -796,4 +795,5 @@ width: 100%;
   margin-top: 15px;
   font-weight: bold;
 }
+
 
