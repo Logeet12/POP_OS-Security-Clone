@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css" />
+  <script src="login.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <img src="system76.png">
+
+    <!-- Login box -->
+    <div class="login-box">
+      <h2>LOG IN</h2>
+
+      <form>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit" class="login-btn">LOG IN</button>
+      </form>
+
+      <p class="or">Or log in with</p>
+      <div class="social">
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" /></a>
+        <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/google.svg" alt="Google" /></a>
+      </div>
+
+      <div class="links">
+        <a href="#" class="forgot">Forgot your password?</a>
+        <p>New to System76? <a href="#" class="create">Create Account</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

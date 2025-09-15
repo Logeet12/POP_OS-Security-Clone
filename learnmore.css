@@ -1,0 +1,219 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", system-ui, sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+.navbar{
+background-color: white;
+height:235px;
+width: 100%;
+}
+.nav-logo{
+    background-image: url("system76.png");
+    background-size: cover;
+    height: 100px;
+    width: 250px;
+    align-items: center;
+    margin-left: 500px;
+}
+.nav-user{
+    margin-left: 750px;
+    align-items: center;
+    padding: .50rem;
+}
+.nav-cartel a{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #574f4A;
+    padding: 0px 24px;
+}
+.nav-cartel button{
+    color: #574f4A;
+    background: none;       
+    border: none;           
+    color: black;        
+    font: inherit;          
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-cartel a{
+    color: #574f4A;
+    text-decoration: none;
+}
+.nav-pages a{
+    font-family: inherit;
+    color: #574f4A;
+    font-size: 16px;
+    font-weight: 300;
+    padding: .50rem;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.breadcrumb {
+  font-size: 0.9rem;
+  margin-bottom: 60px;
+}
+.breadcrumb a {
+  color: #a0522d;            
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+.breadcrumb span {
+  margin: 0 5px;
+  color: #666;
+}
+.breadcrumb .current {
+  color: #333;
+}
+
+
+.hero {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.hero h5 {
+    margin: 0;
+    padding: 0;
+    color: rgba(71, 71, 71, 1);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    min-height: 16px;
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.hero h1 {
+  font-family: "Fira Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  line-height: 42px;
+  text-align: center;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: #574f4a;
+}
+.hero p {
+  font-size: 1.1rem;
+  color: #555;
+}
+.footer {
+  background-color: #4a423e;
+  color: #f5f5f5;
+  padding: 40px 60px;
+  font-family: 'Fira Sans', system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* place links on left and subscribe on right */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.footer a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+.footer a:hover { text-decoration: underline; }
+
+.footer-links {
+  display: flex;
+  gap: 80px;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-subscribe {
+  text-align: right;
+  max-width: 300px;
+}
+.footer-subscribe p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #dddddd;
+}
+
+.subscribe-btn {
+  background-color: #2ec4c9;
+  color: #000;
+  border: none;
+  padding: 12px 28px;
+  border-radius: .25em;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.subscribe-btn:hover { background-color: #26a5a9; }
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 100%;
+  height: 28px;
+  padding: 8px;
+}
+.social-icons img {
+  fill: white;
+  width: 100%;
+  height: 28px;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #dddddd;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.footer-bottom .small {
+  font-size: 12px;
+  color: #d3d3d3;
+  margin-top: 6px;
+}
+.footer-bottom .manage {
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: bold;
+}
